@@ -1,7 +1,6 @@
 {
   "name": "tr",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
@@ -11,5 +10,17 @@
   "devDependencies": {
     "mocha": "^3.2.0",
     "should": "^11.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "^11.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Easonwang01@bitbucket.org/Easonwang01/jenkins-test.git"
+  },
+  "homepage": "https://bitbucket.org/Easonwang01/jenkins-test#readme",
+  "description": ""
 }

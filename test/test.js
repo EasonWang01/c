@@ -1,13 +1,12 @@
 var should = require('should');
 var testFile = require('../index.js');
-var assert = require('assert');
 
 console.log(testFile.test1());
 
 describe('10 + number', function(){
     it('should = 20', function(done){
         var total = testFile.test1(10);
-        total.should.equal(20);  
+        total.should.equal(22);  
         done();
     })
     it('should >= 20', function(done){
